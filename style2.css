@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+  /* 全てを真っ赤にする呪文 */
+* {
+  background-color: red !important;
+  border: 5px solid yellow !important;
+}
