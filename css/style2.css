@@ -136,12 +136,12 @@ h1{
  display: inline-block;
 }
 .mini1 { 
-  width: 80px; 
+  width: 60px; 
   height: auto;
   opacity: 0.8;
   display: block;
   margin-left: auto;
-  margin-right: 15%;
+  margin-right: 0;
   position: absolute;
   right: 0;
   top: 50%;
@@ -170,7 +170,7 @@ display: block;
   padding: 40px 0;
     width: 100%;  
   height: auto; 
-justify-content: space-between;
+justify-content: center;
 
 }
 .sp-img a{
@@ -181,6 +181,7 @@ justify-content: space-between;
 .sp-img img{
   width: 100%;
   height: auto;
+  justify-content: center;
 }
 
 .sp-img a:first-child::before{
@@ -237,6 +238,8 @@ gap: 30px;
 .skill3{
   width: 100px;
   height: auto;
+  position: relative;
+  top: -11px;
 }
 h4{
   text-align: center;
@@ -335,7 +338,7 @@ html {
 .form-overlay {
   position: fixed;
   inset: 0;
-  background:  #badac5;
+  background:  #fdf4f6;
   backdrop-filter: blur(8px);
   display: flex;
   align-items: center;
@@ -376,7 +379,7 @@ html {
   margin: 20px 0 10px;
 }
 .form-state-text {
-  color: var(--sora-ink);
+  color: #3b3a36;
   line-height: 1.8;
   margin: 10px 0 30px;
 }
@@ -469,6 +472,11 @@ html {
     height: auto;
     display: block;
   }
+.mini1{
+  width: 100px;
+  height: auto;
+  margin-right: 100px;
+}
 .profile-text{
   text-align: center;
 }
